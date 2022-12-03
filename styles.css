@@ -1,0 +1,154 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+#hero{
+    background-image: url("images/ab.jpg");
+    padding: 100px 50px 200px 50px;
+    background-size: auto;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    
+}
+#tt{
+    background: linear-gradient(black, #05579e);
+    padding: 5px 10px;
+    border-radius: 7px;
+    margin: 10px 0 5px 0;
+    color: #fff;
+}
+#tt:hover{
+    color: yellow;
+    font-family: cursive;
+}
+#ro{
+    background: linear-gradient(black, #05579e);
+    border-radius: 20px;
+    padding: 5px 5px;
+    color: #fff;
+}
+#ro:hover{
+    color: red;
+    font-family: cursive;
+    transition: width 2s, height 2s, transform 2s;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 13px;
+    background: #05579e;
+    color: #fff;
+}
+.item {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+.card{
+    border-radius: 10px;
+    padding: 0px 20px;
+    padding-left: 20px;
+    display: flex;
+    background: #05579e;
+    justify-content: space-around;
+    margin: 40px auto 40px;
+    width: 400px;
+    border-bottom: 6px solid #fdc500;
+    color: #fff;
+}
+.avater {
+    width: 160px;
+    border-radius: 30px;
+    height: 200px;
+    margin: 20px auto;
+    border: 3px solid #fdc500;
+}
+#op{
+    border-radius: 100px;
+    background: white;
+    margin: 20px 30px;
+    padding: 5px;
+    background: linear-gradient(black, #05579e);
+}
+#po{
+    border-radius: 100px;
+    background: white;
+    margin: 30px 50px;
+    padding: 4px;
+    background: linear-gradient(black, #05579e);
+}
+/*--------------------------------------------------------------
+# Vot
+--------------------------------------------------------------*/
+.vot {
+  padding: 120px 0;
+  background: linear-gradient(rgba(5, 74, 133, 0.8), rgba(5, 74, 133, 0.9)), url(images/cta-bg.jpg) fixed center center;
+  background-size: cover;
+}
+
+.vot h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.vot p {
+  color: #fff;
+}
+
+.vot .vot-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 8px 26px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  border-radius: 50px;
+  border: 2px solid #f6b024;
+  color: #fff;
+}
+
+.vot .vot-btn:hover {
+  background: #f6b024;
+}
+
+@media (max-width: 1024px) {
+  .cta {
+    background-attachment: scroll;
+  }
+}
+@media (min-width: 769px) {
+  .vot .vot-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+.footer{
+    background: #05579e;
+    padding: 10px;
+    color: #fff;
+}
+.footer .credits a {
+  color: #f6b024;
+}
